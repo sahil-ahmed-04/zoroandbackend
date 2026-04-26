@@ -1,0 +1,17 @@
+{
+  "name": "zoroandbackend",
+  "version": "1.0.0",
+  "description": "Backend learning",
+  "keywords": [
+    "javascript",
+    "backend",
+    "zoro"
+  ],
+  "license": "ISC",
+  "author": "Sahil Ahmed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
