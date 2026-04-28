@@ -16,4 +16,24 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
 
+
+
+// routes import
+
+import userRouter from "./routes/user.routes.js"
+
+// routes declaration
+app.use("/api/v1/users", userRouter)
+console.log("User routes mounted") // should print on server start used for debugging ignore this log
+
+
+// how the above route works
+// http://localhost:8000/api/v1/users/register
+
+
+
+
+
+
+
 export {app}
